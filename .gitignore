@@ -1,0 +1,8 @@
+Data/
+*.tar.gz
+*.pdf
+extract_pdf.py
+case_study_text.txt
+implementation_plan.md
+__pycache__/
+*.pyc
