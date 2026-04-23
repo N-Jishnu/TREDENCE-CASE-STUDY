@@ -57,13 +57,13 @@ Note: The table above reports **best-epoch** test accuracy and sparsity for each
 Two valid selections emerge based on objective: **1e-05** is the best practical operating point for accuracy-sensitive deployment (hard-pruned accuracy **53.09%** at **95.91%** sparsity), while **3e-05** is the stronger compression-focused point (**97.59%** sparsity, **41.58x** compression) with lower hard-pruned accuracy (**45.41%**). Overall, increasing lambda improves sparsity/compression but eventually over-prunes the model and degrades accuracy.
 
 ## 3. Gate Distribution
-![Gate Distribution](gate_distribution.png)
+![Gate Distribution](Plots\gate_distribution.png)
 
 ## 4. Gate Evolution During Training
-![Gate Evolution](gate_evolution.png)
+![Gate Evolution](Plots\gate_evolution.png)
 
 ## 5. Training Dynamics
-![Training Curves](training_curves.png)
+![Training Curves](Plots\training_curves.png)
 
 ## 6. Sparsity vs Accuracy Trade-off
-![Trade-off](sparsity_accuracy_tradeoff.png)
+![Trade-off](Plots\sparsity_accuracy_tradeoff.png)

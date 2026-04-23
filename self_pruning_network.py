@@ -1278,10 +1278,11 @@ if __name__ == "__main__":
         )
         assert_sparsity_monotonicity(all_results, config.lambda_values)
         print("Best-epoch sparsity monotonicity check passed for provided lambda values.")
+        plots_output_dir = Path(args.output_dir) / "Plots"
         plot_paths = generate_part6_plots(
             results=all_results,
             lambda_values=config.lambda_values,
-            output_dir=args.output_dir,
+            output_dir=str(plots_output_dir),
         )
         report_path = generate_part7_report(
             results=all_results,
